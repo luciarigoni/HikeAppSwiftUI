@@ -11,6 +11,8 @@
 		0FC5BDE4291D608E00136A2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5BDE3291D608E00136A2A /* ContentView.swift */; };
 		0FC5BDE6291D608F00136A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC5BDE5291D608F00136A2A /* Assets.xcassets */; };
 		0FC5BDE9291D608F00136A2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC5BDE8291D608F00136A2A /* Preview Assets.xcassets */; };
+		0FC5BDF1291D652000136A2A /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5BDF0291D652000136A2A /* Hike.swift */; };
+		0FC5BDF3291D6ABE00136A2A /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5BDF2291D6ABE00136A2A /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0FC5BDE3291D608E00136A2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FC5BDE5291D608F00136A2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC5BDE8291D608F00136A2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FC5BDF0291D652000136A2A /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		0FC5BDF2291D6ABE00136A2A /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		0FC5BDE0291D608E00136A2A /* Hello-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0FC5BDEF291D64AF00136A2A /* Models */,
 				0FC5BDE1291D608E00136A2A /* Hello_SwiftUIApp.swift */,
 				0FC5BDE3291D608E00136A2A /* ContentView.swift */,
 				0FC5BDE5291D608F00136A2A /* Assets.xcassets */,
 				0FC5BDE7291D608F00136A2A /* Preview Content */,
+				0FC5BDF2291D6ABE00136A2A /* HikeDetail.swift */,
 			);
 			path = "Hello-SwiftUI";
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				0FC5BDE8291D608F00136A2A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FC5BDEF291D64AF00136A2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5BDF0291D652000136A2A /* Hike.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC5BDF1291D652000136A2A /* Hike.swift in Sources */,
 				0FC5BDE4291D608E00136A2A /* ContentView.swift in Sources */,
 				0FC5BDE2291D608E00136A2A /* Hello_SwiftUIApp.swift in Sources */,
+				0FC5BDF3291D6ABE00136A2A /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
